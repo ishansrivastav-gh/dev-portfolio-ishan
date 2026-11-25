@@ -1,0 +1,118 @@
+{
+  "identity": {
+    "name": "Ishan Srivastav",
+    "barTitle": "ISHAN SRIVASTAV",
+    "terminalUser": "ishan",
+    "domain": "ishansrivastav.dev",
+    "tagline": "full-stack, applied gen ai.",
+    "github": "ishansrivastav-gh",
+    "storagePrefix": "ishan-portfolio"
+  },
+  "about": {
+    "bio": "Final-year B.Tech CSE student (CGPA 9.12) building full-stack web apps and REST APIs, with hands-on LLM APIs, tool calling and agent loops. Reads, tests and debugs AI-generated code rather than accepting it blindly.",
+    "extra": "Lucknow, India · SRM Institute of Science and Technology"
+  },
+  "links": [
+    {
+      "label": "Email",
+      "url": "mailto:ishansrivastavofficial@gmail.com"
+    },
+    {
+      "label": "GitHub",
+      "url": "https://github.com/ishansrivastav-gh"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/ishan-srivastav-b58741274"
+    }
+  ],
+  "work": [
+    {
+      "when": "2025",
+      "title": "Virtual Intern",
+      "org": "Deloitte",
+      "where": "Remote",
+      "desc": "Completed three virtual internship programs: Cybersecurity, Data Analytics and Technology Consulting. Practised data interpretation, risk assessment and solution presentation."
+    },
+    {
+      "when": "2023 – 2027",
+      "title": "B.Tech, Computer Science & Engineering",
+      "org": "SRM Institute of Science and Technology",
+      "where": "India",
+      "desc": "CGPA 9.12 / 10. 2nd prize, AI-based hackathon at SRM. Winter Schools on Generative AI and Social Choice & Economics, IIT Jodhpur (2024)."
+    }
+  ],
+  "projects": [
+    {
+      "name": "Insightx360",
+      "tag": "Analytics · React",
+      "desc": "Interactive data analytics dashboard that turns CSV and JSON datasets into KPI cards and charts, with automated outlier detection.",
+      "long": "Full-stack analytics platform with real-time filtering, persistent cloud storage on Supabase (PostgreSQL) across sessions, and printable PDF report generation. Deployed on Vercel.",
+      "githubRepo": "",
+      "shots": [],
+      "stack": [
+        "React",
+        "Vite",
+        "Tailwind",
+        "Supabase",
+        "Vercel"
+      ],
+      "url": "https://github.com/ishansrivastav-gh"
+    },
+    {
+      "name": "Virtual Swarm Drone Simulator",
+      "tag": "Simulation · JavaScript",
+      "desc": "Real-time multi-agent drone swarm simulator with 3D visualization and analytics for defence training and algorithm testing.",
+      "long": "Defence training platform for research and swarm-algorithm testing, with live 3D visualization and a maps integration.",
+      "githubRepo": "",
+      "shots": [],
+      "stack": [
+        "JavaScript",
+        "3D Viz",
+        "Maps API"
+      ],
+      "url": "https://github.com/ishansrivastav-gh"
+    },
+    {
+      "name": "AI Stock Predictor & Budget Manager",
+      "tag": "ML · Python",
+      "desc": "Machine-learning trend forecasting integrated with a personal budget manager for expense tracking and automated planning.",
+      "long": "AI-powered predictor using ML models for trend forecasting, paired with expense tracking and automated financial planning.",
+      "githubRepo": "",
+      "shots": [],
+      "stack": [
+        "Python",
+        "Machine Learning"
+      ],
+      "url": "https://github.com/ishansrivastav-gh",
+      "more": true
+    },
+    {
+      "name": "Bank Management System",
+      "tag": "Desktop · Java",
+      "desc": "Java GUI banking app: accounts, deposits, withdrawals and balance inquiry.",
+      "long": "Built with OOP design, input validation and error handling.",
+      "githubRepo": "",
+      "shots": [],
+      "stack": [
+        "Java",
+        "OOP",
+        "GUI"
+      ],
+      "url": "https://github.com/ishansrivastav-gh",
+      "more": true
+    }
+  ],
+  "talks": [],
+  "wallRepos": [],
+  "siteStack": [
+    {
+      "name": "Vanilla JS",
+      "via": "zero-build frontend"
+    },
+    {
+      "name": "Canvas 2D",
+      "via": "intro + contribution ink"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+// IQR-based outlier flagging for a numeric column
+export function findOutliers(values) {
+  const s = [...values].sort((a, b) => a - b);
+  const q = (p) => s[Math.floor((s.length - 1) * p)];
+  const iqr = q(0.75) - q(0.25);
+  const lo = q(0.25) - 1.5 * iqr;
+  const hi = q(0.75) + 1.5 * iqr;
+  return values.filter((v) => v < lo || v > hi);
+}
+// steer away from neighbours that are too close
+export function separation(drone, neighbours, minDist) {
+  const force = { x: 0, y: 0, z: 0 };
+  for (const n of neighbours) {
+    const dx = drone.x - n.x, dy = drone.y - n.y, dz = drone.z - n.z;
+    const d = Math.hypot(dx, dy, dz);
+    if (d > 0 && d < minDist) {
+      force.x += dx / d; force.y += dy / d; force.z += dz / d;
+    }
+  }
+  return force;
+}
+def moving_average(prices: list[float], window: int) -> list[float]:
+    out = []
+    for i in range(len(prices) - window + 1):
+        out.append(sum(prices[i:i + window]) / window)
+    return out
+
+def trend(prices: list[float]) -> str:
+    short, long = moving_average(prices, 5), moving_average(prices, 20)
+    return 'up' if short[-1] > long[-1] else 'down'
